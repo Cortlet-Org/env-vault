@@ -1,0 +1,10 @@
+node_modules/
+.env
+teammate_keys/
+testenv/
+*.log
+env-vault.exe
+env-vault.blob
+sea-config.json
+.DS_Store
+Thumbs.db

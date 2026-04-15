@@ -1,0 +1,33 @@
+{
+  "name": "env-vault",
+  "version": "1.0.0",
+  "description": "Sovereign, no-bloat secret management for Windows developers.",
+  "type": "module",
+  "main": "src/vault.js",
+  "bin": {
+    "env-vault": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node test/test-vault.js",
+    "lint": "npx eslint ."
+  },
+  "keywords": [
+    "security",
+    "secrets",
+    "env",
+    "vault",
+    "windows",
+    "no-bloat",
+    "cortlet"
+  ],
+  "author": "Cortlet",
+  "license": "MIT",
+  "dependencies": {
+    "cross-spawn": "^7.0.6",
+    "dotenv": "^16.4.5",
+    "picocolors": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

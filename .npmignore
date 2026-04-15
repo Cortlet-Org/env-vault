@@ -1,0 +1,20 @@
+# Local Keys and Identity
+teammate_keys/
+~/.ssh/id_rsa*
+
+# Local Environments and Tests
+.env
+testenv/
+tests/
+
+# Build Artifacts
+env-vault.exe
+env-vault.blob
+sea-config.json
+
+# Development Files
+.gitignore
+.npmignore
+README_DEV.md
+*.log
+.DS_Store
