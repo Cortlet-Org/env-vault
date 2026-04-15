@@ -18,3 +18,7 @@ sea-config.json
 README_DEV.md
 *.log
 .DS_Store
+
+# IDE
+.idea/
+.vs/

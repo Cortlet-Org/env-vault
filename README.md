@@ -29,15 +29,18 @@ npx env-vault lock
 ### 3. Run Your App
 Inject secrets into any command:
 
+```
 npx env-vault run -- node app.js
-
+```
 ---
 
 ## 👥 Multi-Member Access
 
 Authorize a teammate by adding their public key:
 
+```
 npx env-vault allow ./teammate_id_rsa.pub
+```
 
 Your teammate can now run the vault using their own identity:
 
