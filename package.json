@@ -1,11 +1,11 @@
 {
   "name": "@cortlet-org/env-vault",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sovereign, no-bloat secret management for Windows developers.",
   "homepage": "https://cortlet.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Cortlet-Software/@cortlet/env-vault.git"
+    "url": "https://github.com/Cortlet-Org/@cortlet/env-vault.git"
   },
   "type": "module",
   "main": "src/vault.js",
