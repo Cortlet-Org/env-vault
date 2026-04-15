@@ -41,8 +41,9 @@ npx env-vault allow ./teammate_id_rsa.pub
 
 Your teammate can now run the vault using their own identity:
 
+```bash
 npx env-vault -i ./their_keys_folder run -- node app.js
-
+```
 ---
 
 ## 🛠️ Commands

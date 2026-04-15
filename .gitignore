@@ -8,3 +8,5 @@ env-vault.blob
 sea-config.json
 .DS_Store
 Thumbs.db
+.idea/
+.vs/
